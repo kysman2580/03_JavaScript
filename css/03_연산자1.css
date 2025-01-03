@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  margin: 0;  /* m0 -> margin : 0 */
+  padding: 0; /* p0 -> padding : 0 */
+}
+
+.calculator{
+  width: 300px;;
+  min-height: 150px;
+
+  border: 3px solid black;
+  margin: auto; /* 화면 가운데 배치 */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.row{
+  margin: 5px 0;
+}
+
+.btn-row{
+  display: flex;
+  justify-content: space-evenly; /* 버튼 적당한 간격으로 떨어짐 */
+}
+
+.btn-row > button{
+  width: 40px;
+  font-size: 18px;
+}
+
+#calcResult{
+  color: red;
+}
+
+.btn2 > button{
+  font-size: 10px;
+  letter-spacing: -1px;
+  width: 30%;
+  
+}
