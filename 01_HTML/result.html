@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>결과페이지</title>
+</head>
+<body>
+    
+    <h1>결과 페이지</h1>
+    <a href="10_폼관련태그.html">되돌아가기</a>
+
+    <script>
+        const params = new URLSearchParams(location.search);
+
+        params.forEach((value, key)=> {
+            console.log("key : ", key);
+            console.log("value : ", value);
+            // console.log("value : ", params.get(key));
+        });
+    </script>
+
+</body>
+</html>
