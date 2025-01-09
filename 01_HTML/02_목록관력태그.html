@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ki">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02_목록관련태그</title>
+</head>
+<body>
+    <!-- body 태그 : 브라우저에 보여질 내용을 작성하는 태그 -->
+     
+    <h1>김영수의 페이지</h1>
+
+    <!-- 두 개가 세트임 -->
+    <h1>ul (Unordered List) 태그 : 순서가 없는 목록</h1>
+    <h1>li (List Item) 태그 : 목록의 한 줄</h1>
+
+    <ul>
+        <li>
+            김치
+            <!-- 하위 목록 -->
+             <ul>
+                <li>갓김치</li>
+                <li>열무김치</li>
+                <li>총각김치</li>
+            </ul>
+        </li>
+
+        <li>
+            죽
+            <!-- 하위 목록 -->
+             <ul>
+                <li>전복죽</li>
+                <li>김치죽</li>
+                <li>낙지죽</li>
+             </ul>
+
+        </li>
+        <li>
+            라면
+            <ul>
+                <li>김치라면</li>
+                <li>떡라면</li>
+                <li>만두라면</li>
+            </ul>
+        </li>
+        <li>
+            국밥
+            <ul>
+                <li>순대국밥</li>
+                <li>특국밥</li>
+                <li>돼지국밥</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h1>ol(ordered List) 태그 : 순서가 있는 목록(숫자가 붙음)</h1>
+
+    <ol>
+        <li>우육면</li>
+        <li>김밥</li>
+        <li>쉑쉑버거</li>
+    </ol>
+
+    <hr>
+    
+    <pre>
+        * type 속성 : 표시되는 숫자 형식 지정
+
+        type="a" : 영어 소문자(a,b,c,d...)
+        type="A" : 영어 대문자(A,B,C,D...)
+        type="i" : 로마 소문자(i,ii,iii,iv,v,vi...)
+        type="I" : 로마 대문자(I,II,III,...)
+        type="1" : 숫자(1,2,3...) (기본값 = 아무것도 적지 않았을 때 적용)   
+    </pre>
+
+    *start 속성 : 목록 시작 번호
+
+    *reversed : 순서 반대로(역순)
+
+    <!-- ol>li*5 -->
+    <ol type="A" start="" reversed>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>DB(Oracle)</li>
+    </ol>
+    
+
+    <hr>
+
+    <h1>Emmet : HTML, CSS 빠른 자동완성 지원 플러그인</h1>
+
+    <pre>
+      태그명 : 태그 시작/종료 자동 완성
+
+      
+      > : 태그 내부에 작성(하위 생성)
+
+      + : 태그 다음에 작성(형제)
+
+      *숫자 : 숫자 만큼 생성
+
+      {} : 태그 내부에 작성될 내용
+      
+      $ : 1 부터 1씩 증가하는 숫자(시퀀스)
+    </pre>
+
+      <ol type="A">
+        <li><strong>1</strong></li>
+        <li><strong>2</strong></li>
+        <li><strong>3</strong> 아이템</strong></li>
+        <li><strong>4</strong></li>
+        <li><strong>5</strong></li>
+      </ol> 
+
+
+
+
+
+
+</body>
+</html>
