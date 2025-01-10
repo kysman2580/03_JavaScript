@@ -38,13 +38,16 @@
 }
 
 /* 배경 이미지 추가 테스트 */
-/* .key:first-of-type{
+/* 
+.key:first-of-type{
   background-image: url('../images/짱구1.gif');
 } */
 
+
+
 /* 마우스 따라다니는 이미지 */
 #cursorImage{
-  width: 100px;
+  width: 50px; 
   position: absolute; /* 다른 요소와 겹치기 가능 */
-  left: -500px;
+  left: -500px; /* 화면 밖에 숨겨두기 */
 }
