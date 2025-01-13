@@ -1,6 +1,5 @@
-/* Node 탐색 환인 */
+/* Node 탐색 확인 */
 const checkBtn1 = document.querySelector("#checkBtn1");
-
 
 /* 
   이벤트 : 사건, 행위, 행동
