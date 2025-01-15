@@ -42,7 +42,7 @@ addBtn.addEventListener("click", ()=>{
   span.addEventListener("click", e => {
     // e.target : 클릭된 요소
     e.target.parentElement.remove(); // 한 줄(.row) 제거
-  })
+  })  
   
   /* *********************************************** */
 
