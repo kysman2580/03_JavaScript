@@ -1,0 +1,26 @@
+#numContainer{
+  border: 1px solid black;
+  width: 280px;
+}
+
+.num{
+  border: 1px solid black;
+  
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+
+  border-radius: 50%;
+
+  text-align: center;
+}
+
+
+
+

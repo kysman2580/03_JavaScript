@@ -1,3 +1,4 @@
+
 /* break 확인 */
 function check1(){
 
@@ -173,7 +174,7 @@ function startGame(){
     if(value < 1 || value > 200){
       alert("1 ~ 200 사이 숫자만 입력");
       continue;
-    }
+    }``
     
     count++;  // 정상 입력 시 카운트 증가
 
